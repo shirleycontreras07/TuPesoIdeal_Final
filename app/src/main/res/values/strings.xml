@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Tu Peso Ideal</string>
+    <string name="gender">Sexo</string>
+    <string name="male">Masculino</string>
+    <string name="female">Femenino</string>
+    <string name="height">Estatura</string>
+    <string name="mass">Peso</string>
+    <string name="age">Edad</string>
+    <string name="calculate">Calcular</string>
+</resources>

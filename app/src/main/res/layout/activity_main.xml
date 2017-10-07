@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.shirley.tupesoideal_final.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/healthyfood"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="40dp">
+
+        <Button
+            style="@style/GeneralFont"
+            android:id="@+id/Button_SistemaAnglosajon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sistema Anglosajon"
+            />
+
+        <Button
+            style="@style/GeneralFont"
+            android:id="@+id/Button_SistemaInternacional"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sistema Internacional"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"/>
+
+
+
+
+    </LinearLayout>
+
+
+</FrameLayout>
